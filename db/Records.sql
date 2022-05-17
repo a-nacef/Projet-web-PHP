@@ -79,7 +79,7 @@ INSERT INTO `holders` (`name`, `lastname`, `record`, `year`, `ref`) VALUES
 -- Index pour la table `gn-users`
 --
 ALTER TABLE `gn-users`
-  ADD PRIMARY KEY (`id`,`age`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Index pour la table `holders`
